@@ -1,0 +1,263 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.header{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("travel_site_img/banner1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 20px;
+    text-align: center;
+    color: #fff;
+}
+.header img{
+  
+    width: 170px;
+    float: left;
+}
+.login-btn{
+    width: 100px;
+    text-align: center;
+    outline: none !important;
+    background: transparent;
+    color: #fff;
+    border-radius: 50px;
+    padding:8px;
+    border: 2px solid #fff;
+    float: right;
+
+}
+.header h1{
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 800;
+    padding-top: 200px;
+    padding-bottom: 0;
+    font-size: 4.375rem;
+}
+.header p{
+    margin: 18px 0;
+}
+  .input-group{
+    width: 90% !important;
+    max-width: 550px;
+    border-radius: 30px !important;
+    color: #fff;
+    margin: auto;
+    padding: 2px;
+
+}
+.form-control{
+    border: 0 !important;
+    border-radius: 30px 30px !important;
+    margin: 2px;
+    box-shadow: none !important; 
+}
+
+.input-group-text{
+    width: 100px;
+    background-image: linear-gradient(#00ff7e,#1f3d90);
+    border: 0 !important;
+    border-radius: 30px !important;
+    color: #fff !important;
+    /* padding: 0 25px !important; */
+    box-shadow: none !important; 
+
+} 
+.feature{
+    padding: 100px 0;
+
+}
+.feature h1{
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 30px;
+    
+}
+.feature-img img{
+    width: 100%;
+   
+}
+.price{
+    height: 50px;
+    width: 50px;
+    border-radius:50% ;
+
+    padding: 10px ;
+    color: #fff;
+    /* text-align: center; */
+    font-weight: 600;
+    box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+    background-color: #ff5722;
+    position: absolute;
+    left: 20px;
+    bottom: -25px;
+
+}
+.feature-img{
+    position: relative;
+}
+.rating{
+    padding: 3px;
+    float: right;
+    background: #fff;
+    bottom: -1px;
+    right: 0;
+    position: absolute;
+}
+.feature .fa{
+    font-size: 15px;
+    color: #ff5722;
+}
+.feature-details{
+   padding: 20px;
+   text-align: justify;
+}
+.feature-details h4{
+    font-weight: 600;
+    margin-top: 20px;
+}
+.feature-details .fa{
+    margin-right: 5px;
+    /* margin-bottom: -20px !important; */
+}
+.feature-box{
+    box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+    margin-bottom: 30px;
+}
+.gallery{
+    padding: 100px 0;
+    background-color: #efefef;
+    /* text-align: center; */
+    /* color: #fff; */
+}
+.gallery h1{
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 800;
+    text-align: center;
+    padding: 30px;
+}
+.gallery-box img{
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+
+}
+.gallery-box img:hover{
+    transform: scale(1.1);
+}
+
+.gallery-box h4{
+    display: block;
+    position: absolute;
+    color: #fff;
+    text-shadow: -2px 2px 2px #000;
+font-weight: 600;
+font-size: 20px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.gallery-box
+{
+    position: relative;
+    margin-bottom: 30px;
+}
+.banner{
+    height: 80% !important;
+    background-image: url("travel_site_img/banner2.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 12%;
+    padding-bottom: 12%;
+    
+
+}
+.banner h2{
+    font-size: 50px;
+}
+.banner-area{
+    padding: 70px 0;
+    background: rgba(0,0,0,0.7);
+    text-align: center;
+    color: #fff;
+}
+.book-button{
+    width: 120px;
+    outline: none !important;
+    background: transparent;
+    border: 2px solid #fff;
+    padding: 8px 0;
+    color: #fff;
+    border-radius: 50px;
+    margin-top: 20px;
+
+}
+.user-feedback h1{
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 700;
+    text-align: center;
+    padding: 30px;
+
+}
+.user-feedback{
+padding: 100px 0;
+
+    
+}
+.user-review{
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(0,0,100,0.2);
+    padding-bottom: 50px;
+}
+.user-review p{
+    padding: 50px 10px 10px 10px;
+}
+.user-feedback img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    margin:-30px 0 20px 40%;
+}
+
+.footer{
+    padding: 100px 20px 15px;
+
+    background-image:linear-gradient(#2d557d,#9610fb) ;
+    color: #fff;
+}
+.footer-logo
+{
+    width: 150px;
+    margin-top: 15px;
+
+    margin-bottom: 15px;
+}
+.footer h4{
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 25px;
+
+}
+.footer p{
+    font-size: 12px;
+    text-align: justify;
+    padding-right: 35px;
+}
+.footer .row .fa{
+    padding-right:20px ;
+    font-size: 20px;
+}
+.footer hr{
+    margin-top: 10px;
+    background: #efefef;
+}
+.copyright p{
+    text-align: center;
+}
